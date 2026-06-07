@@ -1,0 +1,69 @@
+PYTHON ARENA - RUN GUIDE
+========================
+
+Python Arena is a multiplayer Pygame snake arena with a tropical arcade UI.
+The interface is drawn with real Pygame panels, buttons, text, grids, health
+bars, diagnostics, and chat widgets. It does not use pasted reference
+screenshots as backgrounds.
+
+HOW TO RUN
+----------
+
+Terminal 1:
+
+   cd ~/Desktop/350\ project\ 6
+   python3 server.py 5050
+
+Terminal 2:
+
+   cd ~/Desktop/350\ project\ 6
+   python3 client.py
+
+Client lobby:
+
+   IP:       127.0.0.1
+   Port:     5050
+   Username: any name
+
+Optional second player:
+
+   Open another Terminal tab/window.
+   cd ~/Desktop/350\ project\ 6
+   python3 client.py
+
+Use the same IP and port.
+
+FILES CHANGED
+-------------
+
+- client.py: tropical arcade lobby/game UI, responsive panel layout, player
+  cards, game board, chat, status bars, protocol/diagnostic tabs, default
+  lobby IP/port values, and corrected window title.
+- network.py: shared TCP/JSON message layer with live socket statistics and
+  throughput measurement.
+- README_RUN_ME.txt: this run guide.
+
+NETWORKING FEATURES DEMONSTRATED
+--------------------------------
+
+- Client/server architecture over TCP sockets.
+- JSON application-layer messages.
+- 4-byte length-prefixed message framing.
+- Sequence IDs on outgoing messages.
+- ACK control messages.
+- SHA checksum validation for error detection.
+- Duplicate message detection.
+- Ping/pong latency measurement.
+- Heartbeat/connection health.
+- Chat and movement rate limiting/throttling.
+- Incoming/outgoing byte counters.
+- Live incoming/outgoing throughput in B/s, KB/s, or MB/s.
+- Protocol log and event feed.
+- Replay/event log support.
+
+DEMO TIP
+--------
+
+Open the in-game DIAG tab while moving or chatting. The message counts,
+byte counts, ACKs, and throughput values should change live as packets move
+between client and server.

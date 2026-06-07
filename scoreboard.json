@@ -1,0 +1,58 @@
+{
+  "charbel": {
+    "wins": 2,
+    "losses": 1,
+    "games": 3,
+    "pies": 3,
+    "powerups": 0
+  },
+  "samira": {
+    "wins": 1,
+    "losses": 2,
+    "games": 3,
+    "pies": 5,
+    "powerups": 2
+  },
+  "zombie": {
+    "wins": 1,
+    "losses": 0,
+    "games": 1,
+    "pies": 8,
+    "powerups": 7
+  },
+  "ali": {
+    "wins": 0,
+    "losses": 3,
+    "games": 3,
+    "pies": 7,
+    "powerups": 3
+  },
+  "wafaa": {
+    "wins": 4,
+    "losses": 15,
+    "games": 20,
+    "pies": 118,
+    "powerups": 58
+  },
+  "alibrahim": {
+    "wins": 0,
+    "losses": 2,
+    "games": 2,
+    "pies": 1,
+    "powerups": 0
+  },
+  "wafaa aziz": {
+    "wins": 1,
+    "losses": 13,
+    "games": 14,
+    "pies": 26,
+    "powerups": 17
+  },
+  "wafaa azizz": {
+    "wins": 0,
+    "losses": 1,
+    "games": 1,
+    "pies": 4,
+    "powerups": 1
+  }
+}
